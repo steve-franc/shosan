@@ -1,0 +1,479 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.newsletter-header{
+
+    border-style: hidden hidden solid hidden;
+    border-bottom-width: 1px;
+    border-color: #aaaaaa;
+    padding: 20px 20px 40px 0px;
+    padding-right: 8%;
+}
+
+
+.newsletter-header .letter{
+    float: right;
+
+}
+
+.newsletter-header .letter li{
+    display: inline;
+    padding: 20px 20px 20px 20px
+}
+
+
+
+
+
+
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 59px 27px 57px;
+    min-height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    color: #F73C5C;
+    border-style: hidden hidden solid hidden;
+    border-bottom-width: thin;
+  }
+  
+  
+  
+
+
+
+
+
+
+.logo{
+    cursor: pointer;
+}
+
+
+
+ /* -------------------------------------------------Hero ------------------------------------------ */
+
+
+ .hero-section{
+     justify-content: center;
+     padding: 144px 220px 114px 223px;
+     text-align: center;
+     background-image: url(Rectangle\ 3.png);
+     height: 100%;
+ }
+
+
+ .contain-div{
+     flex-basis: 40%;
+     position: relative;
+    margin-left: 50px;
+
+ }
+
+  .hero-light-txt{
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+  }
+
+  .hero-bold{
+      color: white;
+      font-size: 30px;
+  }
+
+  
+
+  .CTA-Hero{
+      padding: 15px 50px;
+      border-radius: 37px;
+      border: none;
+      font-size: 18px;
+      margin-top: 40px;
+      background-color: white;
+  }
+
+  .CTA-Hero:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+
+/*---------------------------Latest Updates-----------------------*/
+
+
+  .holder{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 100%;
+      
+  }
+
+  .holder .image-n-text-description h5{
+      font-size: 23px;
+      padding: 21px 0px 18px 0px;
+      font-family: 'Inter', sans-serif;
+  }
+
+  h3{
+      font-size: 40px;
+      font-family: 'Inter', sans-serif;
+      padding: 18px 0px 65px 0px;
+  }
+
+  .update{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+
+.latest-updates-section{
+    margin-top: 142px;
+    padding: 0 50px 120px 50px;
+    
+}
+
+
+.image-n-text-description{
+    padding: 0px 10px;
+    
+}
+
+/*---------------------------Newsletter-----------------------*/
+
+.news-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.news-holder-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.newsletter{
+    padding: 80px 60px 79px 57px;
+    background-color: #F5FEFF;
+    border: none;
+}
+
+
+.sign{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.insider{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 23px;
+
+}
+
+
+.news-p{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 23px;
+}
+
+.news-CTA{
+    padding: 15px 93px;
+    border-radius: 37px;
+    border: 2px hidden;
+    color: white;
+    background-color: #5a8b92;
+}
+
+
+.news-CTA:hover{
+    border-style: solid;
+    background-color: #f5feff;
+    border-color: #5a8b92;
+    border-width: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.reverse-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Inverse-card{
+    padding: 80px 60px 79px 57px;
+    background-color: #FFDCDC;
+    border: none;
+}
+
+.signd{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+.gift-button-CTA{
+    padding: 15px 93px;
+    border-radius: 37px;
+      border: none;
+      color: black;
+      background-color: white;
+}
+
+.gift-button-CTA:hover{
+    background-color: #F73C5C;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*--------------shopping centres----------------*/
+
+
+
+
+.flex-this{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-this-too{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.other-centres{
+    padding: 0 50px 120px 50px ;
+}
+
+.shopping-centres{
+    padding: 82px 0px 30px 0px;
+    border-bottom: solid #929292;
+
+    
+}
+
+.shopping-centre-contain{
+    display: flex;
+    padding: 61px 0px 20px 0px;
+}
+
+
+.centres-title{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 32px 0px 18px 0px;
+}
+
+
+.shopping-centre-contain-below{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.shopping-centre-contain-above{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+
+
+.shopping-centre-photos:hover{
+   transform: scale(1.2);
+   transition: 100ms ease-in;
+}
+
+
+
+
+
+
+#sub-text{
+    color: #686868;
+}
+
+
+
+.newsletter-performance{
+    padding: 80px 60px 79px 57px;
+    background-color: #ffffff;
+    border: none;
+}
+
+
+/*---------------------------------footer----------------------*/
+
+
+.footer{
+    background-color: #04645c;
+    padding: 158px 366px 120px 191px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-left p{
+    padding-top: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.handle-flex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+
+
+.handle-flex ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 0px 27px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+/*-----------------responsive design------------------*/
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .contain-div {
+      width: 90%;
+    }
+
+    .latest-updates-section{
+        text-align: center;
+    }
+
+
+.image-n-text-description{
+    margin-bottom: 40px;
+}
+
+
+    .holder{
+     flex-direction: column;
+    }
+
+    .news-holder{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .news-holder .photo{
+        margin-bottom: 40px;
+    }
+
+    .reverse-holder{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .reverse-holder .photo{
+        margin-bottom: 40px;
+    }
+
+    .news-holder-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .news-holder-footer .photo{
+        margin-bottom: 40px;
+    }
+
+
+.shopping-centre-contain-above{
+    flex-direction: column;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
