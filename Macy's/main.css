@@ -277,11 +277,9 @@
     justify-content: space-between;
 }
 
-.flex-this-too{
-    display: flex;
-    justify-content: space-around;
+.centre-container{
+    padding: 25px;
 }
-
 
 .other-centres{
     padding: 0 50px 120px 50px ;
@@ -307,12 +305,6 @@
     padding: 32px 0px 18px 0px;
 }
 
-
-.shopping-centre-contain-below{
-    display: flex;
-    justify-content: space-between;
-    
-}
 
 .shopping-centre-contain-above{
     display: flex;
