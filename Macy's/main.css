@@ -4,6 +4,8 @@
     padding: 0px;
     font-family: 'Inter', sans-serif;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+
 }
 
 .newsletter-header{
@@ -57,6 +59,11 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+.nav-links i{
+    display: none;
+}
+
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
@@ -65,12 +72,6 @@
     border-bottom-width: thin;
   }
   
-  
-  
-
-
-
-
 
 
 .logo{
@@ -91,12 +92,7 @@
  }
 
 
- .contain-div{
-     flex-basis: 40%;
-     position: relative;
-    margin-left: 50px;
 
- }
 
   .hero-light-txt{
       font-size: 18px;
@@ -313,6 +309,8 @@
 }
 
 
+
+
 .shopping-centre-photos:hover{
    transform: scale(1.2);
    transition: 100ms ease-in;
@@ -345,6 +343,8 @@
     font-family: 'Inter', sans-serif;
 }
 
+
+
 .footer-left p{
     padding-top: 27px;
     font-size: 24px;
@@ -375,7 +375,7 @@
 /*-----------------responsive design------------------*/
 
 @media only screen and (max-width: 800px) {
-    /* For mobile phones: */
+    /* For Tablets: */
     .contain-div {
       width: 90%;
     }
@@ -428,13 +428,58 @@
     flex-direction: column;
 }
 
-
-
+.nav-links{
 
 }
 
 
 
+.handle-flex{
+    flex-direction: column;
+    
+}
+
+
+.footer-left{
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+.footer-centre{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+.contain-div{
+    align-items: center;
+}
+
+.shopping-centre-contain-above{
+    flex-direction: column;
+    
+}
+
+.nav-links{
+    display: hidden;
+}
+
+
+
+}
 
 
 
